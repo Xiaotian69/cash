@@ -1,0 +1,21 @@
+[package]
+name = "personal-asset-manager"
+version = "1.0.0"
+description = "Local personal assets and simple ledger"
+authors = ["Personal Asset Manager"]
+license = ""
+repository = "https://github.com/Xiaotian69/cash"
+edition = "2021"
+rust-version = "1.77.2"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "personal_asset_manager_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.6.3", features = [] }
+
+[dependencies]
+tauri = { version = "2.11.6", features = [] }
