@@ -8,6 +8,7 @@
     <img alt="Windows x64" src="https://img.shields.io/badge/platform-Windows_x64-64748b?style=flat-square" />
     <img alt="Local first" src="https://img.shields.io/badge/data-local_first-54bea2?style=flat-square" />
     <img alt="Tauri and React" src="https://img.shields.io/badge/built_with-Tauri_%2B_React-8985f4?style=flat-square" />
+    <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-0b7a75?style=flat-square" /></a>
   </p>
   <p><a href="https://github.com/Xiaotian69/cash/releases/tag/v1.0.0">下载 v1.0</a> · <a href="docs/GUIDE.md">使用指南</a> · <a href="docs/ROADMAP.md">未来规划</a> · <a href="https://github.com/Xiaotian69/cash/issues">反馈建议</a></p>
 </div>
@@ -15,6 +16,8 @@
 ![Cash 资产总览](docs/images/assets.png)
 
 > 展示图使用虚构账户与金额。首次启动为空白状态，不包含任何个人财务数据。
+
+> **Cash** is a local-first personal asset and expense tracker for Windows. Track balances across cash, bank, credit, investment and liability accounts, log daily income and expenses, and see net-worth trends from daily snapshots. No sign-up, no cloud sync, no bank connection; data stays in the app's local IndexedDB with JSON backup and restore. Built with Tauri 2, React and TypeScript. [Download v1.0.0 for Windows x64](https://github.com/Xiaotian69/cash/releases/tag/v1.0.0).
 
 ## 从分散的余额，到清楚的全貌
 
@@ -42,7 +45,7 @@
 
 ## 三步开始
 
-1. 在 [Releases](https://github.com/Xiaotian69/cash/releases/tag/v1.0.0) 下载 Windows x64 安装包并安装。
+1. 在 [Releases](https://github.com/Xiaotian69/cash/releases/tag/v1.0.0) 下载 `Cash-1.0.0-windows-x64-setup.exe` 并安装；可用同页的 `SHA256SUMS.txt` 校验安装包。
 2. 添加常用账户，填入当前余额；信用和负债账户填写正数欠款，界面会以负号显示。
 3. 开始记录收支，并在「设置」定期导出备份。
 
@@ -96,6 +99,10 @@ npm run build
 ## 当前边界
 
 账户余额由用户维护；投资账户不接入实时行情。货币设置只改变显示符号，不进行汇率换算。历史趋势来自每日资产快照，不代表完整的银行账单。当前发布包面向 Windows x64，其他平台尚未验证。
+
+## 许可
+
+Cash 以 [MIT License](LICENSE) 开源，Copyright © 2026 Xiaotian69。
 
 ---
 
