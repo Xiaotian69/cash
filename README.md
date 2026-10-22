@@ -16,6 +16,8 @@
 
 > 展示图使用虚构账户与金额。首次启动为空白状态，不包含任何个人财务数据。
 
+> **Cash** is a local-first personal asset and expense tracker for Windows. Track balances across cash, bank, credit, investment and liability accounts, log daily income and expenses, and see net-worth trends from daily snapshots. No sign-up, no cloud sync, no bank connection; data stays in the app's local IndexedDB with JSON backup and restore. Built with Tauri 2, React and TypeScript. [Download v1.0.0 for Windows x64](https://github.com/Xiaotian69/cash/releases/tag/v1.0.0).
+
 ## 从分散的余额，到清楚的全貌
 
 银行卡、零钱、投资和待还款，往往分散在不同地方。Cash 把它们放进一个安静、清晰的桌面界面：今天有多少资产，承担多少负债，净资产又如何变化，一眼就能看见。
@@ -42,7 +44,7 @@
 
 ## 三步开始
 
-1. 在 [Releases](https://github.com/Xiaotian69/cash/releases/tag/v1.0.0) 下载 Windows x64 安装包并安装。
+1. 在 [Releases](https://github.com/Xiaotian69/cash/releases/tag/v1.0.0) 下载 `Cash-1.0.0-windows-x64-setup.exe` 并安装；可用同页的 `SHA256SUMS.txt` 校验安装包。
 2. 添加常用账户，填入当前余额；信用和负债账户填写正数欠款，界面会以负号显示。
 3. 开始记录收支，并在「设置」定期导出备份。
 
@@ -96,6 +98,10 @@ npm run build
 ## 当前边界
 
 账户余额由用户维护；投资账户不接入实时行情。货币设置只改变显示符号，不进行汇率换算。历史趋势来自每日资产快照，不代表完整的银行账单。当前发布包面向 Windows x64，其他平台尚未验证。
+
+## 许可
+
+本仓库目前未附带开源许可证。在作者选择并发布许可证之前，源代码仅供浏览与学习参考，保留所有权利。
 
 ---
 
