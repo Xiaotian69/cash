@@ -8,6 +8,7 @@
     <img alt="Windows x64" src="https://img.shields.io/badge/platform-Windows_x64-64748b?style=flat-square" />
     <img alt="Local first" src="https://img.shields.io/badge/data-local_first-54bea2?style=flat-square" />
     <img alt="Tauri and React" src="https://img.shields.io/badge/built_with-Tauri_%2B_React-8985f4?style=flat-square" />
+    <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-0b7a75?style=flat-square" /></a>
   </p>
   <p><a href="https://github.com/Xiaotian69/cash/releases/tag/v1.0.0">下载 v1.0</a> · <a href="docs/GUIDE.md">使用指南</a> · <a href="docs/ROADMAP.md">未来规划</a> · <a href="https://github.com/Xiaotian69/cash/issues">反馈建议</a></p>
 </div>
@@ -101,7 +102,7 @@ npm run build
 
 ## 许可
 
-本仓库目前未附带开源许可证。在作者选择并发布许可证之前，源代码仅供浏览与学习参考，保留所有权利。
+Cash 以 [MIT License](LICENSE) 开源，Copyright © 2026 Xiaotian69。
 
 ---
 
